@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <Nav></Nav>
     <Alunos/>
   </div>
 </template>
 
 <script>
 import Alunos from './components/Aluno/Alunos.vue'
+import Nav from './components/_nav/Nav'
 
 export default {
   name: 'app',
   components: {
-    Alunos
+    Alunos,
+    Nav
   }
 }
 </script>
@@ -28,8 +31,12 @@ body, html {
   margin: 0;
   height: 100%;
 }
+.marginPrincipal {
+  width: 50%;
+  margin: auto;
+}
 #app {
-
+  width: 100%;
 }
 
 .btn_Danger {
@@ -73,5 +80,6 @@ table thead th{
   width: 5%;
 }
 #app {
+  width: 100%
 }
 </style>
