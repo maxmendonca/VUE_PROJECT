@@ -1,8 +1,8 @@
 <template>
-    <div class="barraTop">
+    <div class= "barraTop">
         <nav class="marginPrincipal">
             <router-link to="/professores">Professores</router-link>
-            <router-link to="/todosalunos">Alunos</router-link>
+            <router-link to="/todosAlunos">Alunos</router-link>            
             <router-link to="/sobre">Sobre</router-link>
         </nav>
     </div>

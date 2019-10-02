@@ -1,19 +1,58 @@
 {
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Maxwell"
+    },
+    {
+      "id": 2,
+      "nome": "Carol"
+    },
+    {
+      "id": 3,
+      "nome": "Gabrielle"
+    }
+  ],
   "alunos": [
     {
       "id": 1,
-      "nome": "Marcos",
-      "sobrenome": "Xavier"
+      "nome": "Marcos1",
+      "sobrenome": "Xavier21",
+      "dataNasc": "01/02/2012",
+      "professor": {
+        "id": 2,
+        "nome": "Maxwell"
+      }
     },
     {
       "id": 2,
       "nome": "André",
-      "sobrenome": "Noguer"
+      "sobrenome": "Noguera",
+      "dataNasc": "20/07/2010",
+      "professor": {
+        "id": 1,
+        "nome": "Carol"
+      }
     },
     {
       "nome": "Jose Mendonça",
       "sobrenome": "",
-      "id": 4
+      "dataNasc": "04/03/2002",
+      "id": 4,
+      "professor": {
+        "id": 3,
+        "nome": "Gabrielle"
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Jurema",
+      "sobrenome": "filistéia",
+      "dataNasc": "01/01/1990",
+      "professor": {
+        "id": 3,
+        "nome": "Maxwell"
+      }
     }
   ]
 }
